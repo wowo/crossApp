@@ -1,0 +1,86 @@
+Oct 27 23:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 27 23:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 27 23:56:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 27 23:56:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 27 23:56:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 27 23:56:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 27 23:56:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 27 23:56:06 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 27 23:56:06 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/modules/default/templates/indexSuccess.php"
+Oct 27 23:56:06 symfony [err] {sfRenderException} The template "_hello.php" does not exist or is unreadable in "".
+Oct 27 23:59:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 27 23:59:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 27 23:59:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 27 23:59:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 27 23:59:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 27 23:59:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 27 23:59:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 27 23:59:42 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 27 23:59:42 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/modules/default/templates/indexSuccess.php"
+Oct 27 23:59:42 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 27 23:59:42 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 27 23:59:42 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 27 23:59:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 27 23:59:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 27 23:59:42 symfony [info] {sfWebDebugLogger} Configuration 179.70 ms (9)
+Oct 27 23:59:42 symfony [info] {sfWebDebugLogger} Action "default/index" 0.79 ms (1)
+Oct 27 23:59:42 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 20.36 ms (1)
+Oct 27 23:59:42 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.31 ms (1)
+Oct 27 23:59:42 symfony [info] {sfWebResponse} Send content (81660 o)
+Oct 28 00:00:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:00:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:00:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:00:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:00:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:00:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:00:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:00:53 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:00:53 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/modules/default/templates/indexSuccess.php"
+Oct 28 00:00:53 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:00:53 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 28 00:00:53 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 28 00:00:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:00:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:00:53 symfony [info] {sfWebDebugLogger} Configuration 2.67 ms (9)
+Oct 28 00:00:53 symfony [info] {sfWebDebugLogger} Action "default/index" 1.14 ms (1)
+Oct 28 00:00:53 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 16.53 ms (1)
+Oct 28 00:00:53 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.64 ms (1)
+Oct 28 00:00:53 symfony [info] {sfWebResponse} Send content (81733 o)
+Oct 28 00:01:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:01:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:01:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:01:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:01:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:01:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:01:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:01:16 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:01:16 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/modules/default/templates/indexSuccess.php"
+Oct 28 00:01:16 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:01:16 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 28 00:01:16 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 28 00:01:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:01:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:01:16 symfony [info] {sfWebDebugLogger} Configuration 2.56 ms (9)
+Oct 28 00:01:16 symfony [info] {sfWebDebugLogger} Action "default/index" 0.70 ms (1)
+Oct 28 00:01:16 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 13.07 ms (1)
+Oct 28 00:01:16 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.18 ms (1)
+Oct 28 00:01:16 symfony [info] {sfWebResponse} Send content (81699 o)
+Oct 28 00:03:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:03:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:03:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:03:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:03:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:03:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:03:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:03:01 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:03:01 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/modules/default/templates/indexSuccess.php"
+Oct 28 00:03:01 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:03:01 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 28 00:03:01 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/frontend/templates/layout.php"
+Oct 28 00:03:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:03:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:03:01 symfony [info] {sfWebDebugLogger} Configuration 2.43 ms (9)
+Oct 28 00:03:01 symfony [info] {sfWebDebugLogger} Action "default/index" 0.73 ms (1)
+Oct 28 00:03:01 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.08 ms (1)
+Oct 28 00:03:01 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.24 ms (1)
+Oct 28 00:03:01 symfony [info] {sfWebResponse} Send content (81730 o)

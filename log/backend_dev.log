@@ -1,0 +1,76 @@
+Oct 28 00:03:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:03:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:03:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:03:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:03:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:03:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:03:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:03:10 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:03:10 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/default/templates/indexSuccess.php"
+Oct 28 00:03:10 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:03:10 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:03:10 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:03:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:03:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:03:10 symfony [info] {sfWebDebugLogger} Configuration 179.88 ms (9)
+Oct 28 00:03:10 symfony [info] {sfWebDebugLogger} Action "default/index" 1.44 ms (1)
+Oct 28 00:03:10 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 18.96 ms (1)
+Oct 28 00:03:10 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.23 ms (1)
+Oct 28 00:03:10 symfony [info] {sfWebResponse} Send content (81639 o)
+Oct 28 00:04:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:04:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:04:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:04:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:04:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:04:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:04:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:04:09 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:04:09 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/default/templates/indexSuccess.php"
+Oct 28 00:04:09 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:04:09 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:04:09 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:04:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:04:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:04:09 symfony [info] {sfWebDebugLogger} Configuration 2.66 ms (9)
+Oct 28 00:04:09 symfony [info] {sfWebDebugLogger} Action "default/index" 0.77 ms (1)
+Oct 28 00:04:09 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.99 ms (1)
+Oct 28 00:04:09 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.59 ms (1)
+Oct 28 00:04:09 symfony [info] {sfWebResponse} Send content (89101 o)
+Oct 28 00:04:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:04:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:04:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:04:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:04:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:04:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:04:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:04:25 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:04:25 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/default/templates/indexSuccess.php"
+Oct 28 00:04:25 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:04:25 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:04:25 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:04:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:04:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:04:25 symfony [info] {sfWebDebugLogger} Configuration 2.66 ms (9)
+Oct 28 00:04:25 symfony [info] {sfWebDebugLogger} Action "default/index" 0.77 ms (1)
+Oct 28 00:04:25 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.96 ms (1)
+Oct 28 00:04:25 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.50 ms (1)
+Oct 28 00:04:25 symfony [info] {sfWebResponse} Send content (81689 o)
+Oct 28 00:04:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 28 00:04:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 28 00:04:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 28 00:04:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 28 00:04:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 28 00:04:45 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 28 00:04:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 28 00:04:45 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 28 00:04:45 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/default/templates/indexSuccess.php"
+Oct 28 00:04:45 symfony [info] {CrossAppPartialView} Render "/home/wowo/localhost/crossApp/apps/backend/modules/mails/templates/_hello.php"
+Oct 28 00:04:45 symfony [info] {sfPHPView} Decorate content with "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:04:45 symfony [info] {sfPHPView} Render "/home/wowo/localhost/crossApp/apps/backend/templates/layout.php"
+Oct 28 00:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 28 00:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 28 00:04:45 symfony [info] {sfWebDebugLogger} Configuration 2.71 ms (9)
+Oct 28 00:04:45 symfony [info] {sfWebDebugLogger} Action "default/index" 0.77 ms (1)
+Oct 28 00:04:45 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 15.17 ms (1)
+Oct 28 00:04:45 symfony [info] {sfWebDebugLogger} Partial "mails/_hello" 1.39 ms (1)
+Oct 28 00:04:45 symfony [info] {sfWebResponse} Send content (81698 o)
